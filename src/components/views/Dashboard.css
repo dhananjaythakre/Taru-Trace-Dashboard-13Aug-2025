@@ -1,0 +1,176 @@
+.dashboard-container .table-responsive .table > thead tr th {
+  background-color: #c0d5c2 !important;
+  font-family: "Inter", sans-serif;
+  color: #000 !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+.dashboard-container .table-responsive .table > tbody td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+}
+.dashboard-container .table-responsive .table > tbody td img {
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.dashboard-container .table-bordered > :not(caption) > * > * {
+  border-color: #9ac1ac;
+}
+.report-title {
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* .dashboard-container label {
+  padding-right: 10px;
+} */
+.dashboard-container .greenbg {
+  background-color: #53893d !important;
+  border:1px solid #53893d !important;
+}
+
+.dashboard-container .lightgreenbg {
+  background-color: #b5bc52 !important;
+  border: 1px solid #b5bc52 !important;
+}
+.custom-date-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+
+.dashboard-container input[type="date"] {
+  font-size: 0.8rem;
+  color: #b1b1b1;
+  background-image: url("../src/assets/img/uit--calender.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 96% !important;
+  background-size: 24px;
+  padding:9px 8px;
+}
+.btn-group .dropdown-toggle::after {
+    content: none !important;
+}
+/* Hide the default calendar icon (for WebKit browsers like Chrome, Safari, Edge) */
+.no-default-icon::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* Optional: Firefox fix (may not show default icon by default) */
+.no-default-icon {
+  -moz-appearance: textfield;
+}
+
+.custom-dropdown-toggle {
+  border: none !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.dashboard-container button#dropdown-basic {
+  background-color: #c0d5c2 !important;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.menulisting {
+  transform: translate(5px, 25px) !important;
+}
+.menulisting a {
+  font-size: 14px;
+}
+.menulisting .dropdown-item:active,
+.export-listing .dropdown-item:active {
+  background-color: #c0d5c2 !important;
+  color: #000;
+}
+
+.dropdown-listing .dropdown-toggle::after {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 0.255em;
+  content: url("../src/assets/img/table-arrow.png");
+  border-top: transparent;
+  vertical-align: text-top;
+}
+/* Add New User CSS */
+button.new-user-button {
+  color: #2C985C !important;
+  border-radius: 25px !important;
+  font-size: 14px;
+  text-decoration: none !important;
+  border: 1px solid #2C985C !important;
+  padding: 3px 20px !important;
+  margin-top: 5px;
+}
+button.userlist-button {
+  color: #2C985C !important;
+  border-radius: 25px !important;
+  font-size: 14px;
+  text-decoration: none !important;
+  border: 1px solid #2C985C !important;
+  padding: 3px 20px !important;
+  margin-top: 5px;
+  margin-right:8px;
+}
+
+.page-link{color: #000000 !important;}
+
+.pagination .active > .page-link,
+.pagination .page-link.active {
+  z-index: 3;
+  color: var(--bs-pagination-active-color);
+  background-color: #699e84;
+  border: #699e84;
+  color: #fff !important;
+}
+
+/* Add User CSS */
+.modal-footer .greenbg {
+  background-color: #53893d !important;
+  border: none;
+}
+
+/* Copyright CSS */
+.copyright{
+  font-size:12px;
+  color:#fff;
+  padding:15px 0;
+}
+/*  Responsive CSS */
+@media screen and (max-width: 1599px) {
+  .dashboard-container .lightgreenbg,
+  .dashboard-container .greenbg {
+    font-size: 14px !important;
+  }
+}
+
+
+
+@media (max-width: 960px) and (min-width: 768px) {
+  .filter-row .filter-item {
+    flex: 0 0 48%; /* Two per row */
+    max-width: 48%;
+  }
+
+  .filter-row label {
+
+        font-size: 14px;
+        text-align: center;    
+  }
+
+  .filter-row .btn,
+  .filter-row .dropdown-toggle {
+    white-space: nowrap;
+  }
+}
