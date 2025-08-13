@@ -19,7 +19,7 @@
 }
 
 .dashboard-container .table-bordered > :not(caption) > * > * {
-  border-color: #9ac1ac;
+  border: 1px solid #9ac1ac;
 }
 .report-title {
   font-family: "Inter", sans-serif;
@@ -174,3 +174,4 @@ button.userlist-button {
     white-space: nowrap;
   }
 }
+
